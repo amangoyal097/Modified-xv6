@@ -77,4 +77,5 @@ Added some system calls to display process infromation and implemented cpu sched
 ### Observation
 
 ![MLFQ graph](https://github.com/amangoyal097/Modified-xv6/blob/main/modified-xv6/MLFQ_graph.png?raw=true)
-I/O bound processes staylonger in the lower priority queues and the CPU Bound are moved to higher priority queues because they exhaust their time slice while I/O bound stay in the lower priority due to less CPU time
+
+<br/>I/O bound processes staylonger in the lower priority queues and the CPU Bound are moved to higher priority queues because they exhaust their time slice while I/O bound stay in the lower priority due to less CPU time
